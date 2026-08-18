@@ -10,7 +10,6 @@ const PAGE_ORDER = [
   { label: "Typography", href: "/styles/typography" },
   { label: "Spacing & Layout", href: "/styles/spacing-layout" },
   { label: "Corner Radius", href: "/styles/corner-radius" },
-  { label: "Elevation", href: "/styles/elevation" },
   { label: "Iconography", href: "/styles/iconography" },
   { label: "Overview", href: "/brand-expression/overview" },
   { label: "Illustration", href: "/brand-expression/illustration" },
