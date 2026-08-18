@@ -74,7 +74,7 @@ export default function Sidebar() {
                 <li key={item.href} className="nav-item">
                   <Link
                     href={item.href}
-                    className={pathname === item.href ? "active" : ""}
+                    className={pathname.replace(/\/$/, "") === item.href ? "active" : ""}
                   >
                     {item.label}
                   </Link>

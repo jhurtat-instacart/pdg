@@ -39,7 +39,7 @@ function CarrotIcon({ flipped }: { flipped?: boolean }) {
 
 export default function PageNav() {
   const pathname = usePathname();
-  const idx = PAGE_ORDER.findIndex((p) => p.href === pathname);
+  const idx = PAGE_ORDER.findIndex((p) => p.href === pathname.replace(/\/$/, ""));
 
   if (idx === -1) return null;
 
