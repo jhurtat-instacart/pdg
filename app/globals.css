@@ -581,7 +581,7 @@ html, body {
 .h2 {
   font-family: "InstacartSansHeadline", sans-serif;
   font-weight: 500;
-  font-size: 23px;
+  font-size: 22px;
   line-height: 1.1;
   letter-spacing: 0;
   color: var(--text-heading);
