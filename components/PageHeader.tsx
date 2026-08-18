@@ -1,4 +1,5 @@
 import Image from "next/image";
+import BASE_PATH from "@/lib/basePath";
 
 type Section = "foundations" | "styles" | "brand-expression";
 
@@ -23,7 +24,7 @@ export default function PageHeader({
       <span className="page-header-eyebrow">{eyebrow}</span>
       <h1 className="page-header-title">{title}</h1>
       <Image
-        src={vector}
+        src={`${BASE_PATH}${vector}`}
         alt=""
         aria-hidden={true}
         className="page-header-vector"

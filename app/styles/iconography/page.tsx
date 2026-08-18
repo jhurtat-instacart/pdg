@@ -1,4 +1,5 @@
 import Image from "next/image";
+import BASE_PATH from "@/lib/basePath";
 import PageHeader from "@/components/PageHeader";
 import DoDont from "@/components/DoDont";
 
@@ -32,7 +33,7 @@ export default function Iconography() {
         {icons.map((name) => (
           <div key={name} className="icon-cell">
             <Image
-              src={`/icons/${name}-24x24-Outline.svg`}
+              src={`${BASE_PATH}/icons/${name}-24x24-Outline.svg`}
               alt={name}
               width={24}
               height={24}
