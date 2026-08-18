@@ -1,3 +1,4 @@
+import Image from "next/image";
 import PageHeader from "@/components/PageHeader";
 import DoDont from "@/components/DoDont";
 
@@ -30,11 +31,12 @@ export default function Iconography() {
       <div className="icon-grid">
         {icons.map((name) => (
           <div key={name} className="icon-cell">
-            <img
+            <Image
               src={`/icons/${name}-24x24-Outline.svg`}
               alt={name}
               width={24}
               height={24}
+              unoptimized
             />
             <span className="icon-label">{name}</span>
           </div>

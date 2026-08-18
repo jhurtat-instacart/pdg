@@ -22,14 +22,14 @@ export default function PageHeader({
     <div className={`page-header page-header--${section}`}>
       <span className="page-header-eyebrow">{eyebrow}</span>
       <h1 className="page-header-title">{title}</h1>
-      {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img
+      <Image
         src={vector}
         alt=""
-        aria-hidden="true"
+        aria-hidden={true}
         className="page-header-vector"
         width={vectorW}
         height={vectorH}
+        unoptimized
       />
     </div>
   );
