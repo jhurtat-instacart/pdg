@@ -27,6 +27,9 @@ jobs:
       - run: npm run build
         env:
           NODE_ENV: production
+      - name: Fix font paths for basePath
+        run: |
+          find out/_next/static/chunks -name "*.css" -exec sed -i 's|url(/fonts/|url(/pdg/fonts/|g' {} +
       - uses: actions/upload-pages-artifact@v3
         with:
           path: ./out
