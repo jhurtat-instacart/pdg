@@ -36,7 +36,6 @@ const nav = [
       { label: "Typography",       href: "/styles/typography" },
       { label: "Spacing & Layout", href: "/styles/spacing-layout" },
       { label: "Corner Radius",    href: "/styles/corner-radius" },
-      { label: "Elevation",        href: "/styles/elevation" },
       { label: "Iconography",      href: "/styles/iconography" },
     ],
   },
