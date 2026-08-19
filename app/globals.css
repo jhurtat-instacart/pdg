@@ -83,7 +83,7 @@
   --dark-chocolate:  #442202;
 
   /* ── Surfaces ───────────────────────────── */
-  --surface-main:          #FEFBF7;
+  --surface-main:          color-mix(in srgb, var(--cashew) 50%, white);
   --surface-card:          #FEFBF7;
   --surface-sidebar:       var(--cashew);
   --surface-mobile-header: #FBF6F0;
